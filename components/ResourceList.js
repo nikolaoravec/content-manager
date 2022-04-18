@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ResourceList = ({ resources }) => {
   return (
     <div>
@@ -16,6 +18,14 @@ const ResourceList = ({ resources }) => {
                         {resource.title}
                       </h1>
                       <p className="has-text-dark">{resource.description}</p>
+                      <Link href={`/resources/${resource.id}`}>
+                        <a
+                          className="button is-link"
+                          href={`/resources/${resource.id}`}
+                        >
+                          Learn more
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 ))}

@@ -3,7 +3,6 @@ import Newsletter from "components/Newsletter";
 import ResourceHighlight from "components/ResourceHighlight";
 import ResourceList from "components/ResourceList";
 import Layout from "components/Layout";
-import { useEffect } from "react";
 
 export default function Home({ resources }) {
   return (
