@@ -113,7 +113,7 @@ const ResourceCreate = () => {
                   type="text"
                   placeholder="60"
                 />
-                <p class="help">Time is in minutes</p>
+                <p className="help">Time is in minutes</p>
               </div>
             </div>
             <div className="field is-grouped">
